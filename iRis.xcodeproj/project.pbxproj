@@ -3,27 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402DD3FD23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json in Resources */ = {isa = PBXBuildFile; fileRef = 402DD3FC23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json */; };
 		40390AE923A4035D00C37987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AE823A4035D00C37987 /* AppDelegate.swift */; };
 		40390AEB23A4035D00C37987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AEA23A4035D00C37987 /* SceneDelegate.swift */; };
-		40390AED23A4035D00C37987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AEC23A4035D00C37987 /* ViewController.swift */; };
 		40390AF023A4035D00C37987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40390AEE23A4035D00C37987 /* Main.storyboard */; };
 		40390AF223A4035F00C37987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40390AF123A4035F00C37987 /* Assets.xcassets */; };
 		40390AF523A4035F00C37987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40390AF323A4035F00C37987 /* LaunchScreen.storyboard */; };
+		40390AFD23A415F200C37987 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AFC23A415F200C37987 /* LoginViewController.swift */; };
+		40390AFF23A4160200C37987 /* RegisterAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AFE23A4160200C37987 /* RegisterAccViewController.swift */; };
+		40390B0623A41CE200C37987 /* Helpers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B0523A41CE200C37987 /* Helpers+Extensions.swift */; };
+		40390B0923A41DB500C37987 /* iRisTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B0823A41DB500C37987 /* iRisTextfield.swift */; };
+		40390B1023A42E4C00C37987 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40390B0F23A42E4C00C37987 /* GoogleService-Info.plist */; };
+		40390B1223A4715900C37987 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1123A4715900C37987 /* DataService.swift */; };
+		40390B1423A4721900C37987 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1323A4721900C37987 /* User.swift */; };
+		40390B1623A4724C00C37987 /* Helpers+Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1523A4724C00C37987 /* Helpers+Variables.swift */; };
+		40390B1823A47F0A00C37987 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1723A47F0A00C37987 /* FormViewController.swift */; };
+		40390B1A23A498B400C37987 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1923A498B400C37987 /* CustomTabBar.swift */; };
+		40390B1C23A4AA7300C37987 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1B23A4AA7300C37987 /* MapViewController.swift */; };
+		40390B1F23A4BB4D00C37987 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1E23A4BB4D00C37987 /* GoogleDataProvider.swift */; };
+		40390B2123A4BBA600C37987 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2023A4BBA600C37987 /* GooglePlace.swift */; };
+		40390B2323A4BC9400C37987 /* Placemarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2223A4BC9400C37987 /* Placemarker.swift */; };
+		40390B2523A4C3C100C37987 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 40390B2423A4C3C100C37987 /* style.json */; };
+		40390B2723A5190000C37987 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2623A5190000C37987 /* MapDetailViewController.swift */; };
+		40390B3223A534D700C37987 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2923A534D600C37987 /* Constant.swift */; };
+		40390B3323A534D700C37987 /* ARPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2A23A534D600C37987 /* ARPathViewController.swift */; };
+		40390B3423A534D700C37987 /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2B23A534D600C37987 /* BaseVc.swift */; };
+		40390B3523A534D700C37987 /* GoogleApiUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2C23A534D600C37987 /* GoogleApiUrl.swift */; };
+		40390B3623A534D700C37987 /* Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2D23A534D600C37987 /* Extension .swift */; };
+		40390B3723A534D700C37987 /* typeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2E23A534D600C37987 /* typeAlias.swift */; };
+		40390B3823A534D700C37987 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B2F23A534D600C37987 /* Step.swift */; };
+		40390B3923A534D700C37987 /* GetIntermediateCordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B3023A534D600C37987 /* GetIntermediateCordinate.swift */; };
+		40390B3A23A534D700C37987 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B3123A534D600C37987 /* LocationDetail.swift */; };
+		40390B3C23A5364400C37987 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B3B23A5364400C37987 /* LocationDetails.swift */; };
+		45A24E8CA1F1791C10EB0FC5 /* Pods_iRis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA85B50DA796FC17207834C /* Pods_iRis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121E7D0B14A1E0AD164372BB /* Pods-iRis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRis.debug.xcconfig"; path = "Target Support Files/Pods-iRis/Pods-iRis.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6A583D903C8028744BAA81 /* Pods-iRis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRis.release.xcconfig"; path = "Target Support Files/Pods-iRis/Pods-iRis.release.xcconfig"; sourceTree = "<group>"; };
+		402DD3FC23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1529-pulsingbeacon.json"; sourceTree = "<group>"; };
 		40390AE523A4035D00C37987 /* iRis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40390AE823A4035D00C37987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40390AEA23A4035D00C37987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40390AEC23A4035D00C37987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40390AEF23A4035D00C37987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40390AF123A4035F00C37987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40390AF423A4035F00C37987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40390AF623A4035F00C37987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40390AFC23A415F200C37987 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40390AFE23A4160200C37987 /* RegisterAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAccViewController.swift; sourceTree = "<group>"; };
+		40390B0523A41CE200C37987 /* Helpers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers+Extensions.swift"; sourceTree = "<group>"; };
+		40390B0823A41DB500C37987 /* iRisTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRisTextfield.swift; sourceTree = "<group>"; };
+		40390B0F23A42E4C00C37987 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40390B1123A4715900C37987 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		40390B1323A4721900C37987 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		40390B1523A4724C00C37987 /* Helpers+Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers+Variables.swift"; sourceTree = "<group>"; };
+		40390B1723A47F0A00C37987 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		40390B1923A498B400C37987 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		40390B1B23A4AA7300C37987 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		40390B1E23A4BB4D00C37987 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		40390B2023A4BBA600C37987 /* GooglePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		40390B2223A4BC9400C37987 /* Placemarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemarker.swift; sourceTree = "<group>"; };
+		40390B2423A4C3C100C37987 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		40390B2623A5190000C37987 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		40390B2923A534D600C37987 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		40390B2A23A534D600C37987 /* ARPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPathViewController.swift; sourceTree = "<group>"; };
+		40390B2B23A534D600C37987 /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		40390B2C23A534D600C37987 /* GoogleApiUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleApiUrl.swift; sourceTree = "<group>"; };
+		40390B2D23A534D600C37987 /* Extension .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension .swift"; sourceTree = "<group>"; };
+		40390B2E23A534D600C37987 /* typeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = typeAlias.swift; sourceTree = "<group>"; };
+		40390B2F23A534D600C37987 /* Step.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		40390B3023A534D600C37987 /* GetIntermediateCordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIntermediateCordinate.swift; sourceTree = "<group>"; };
+		40390B3123A534D600C37987 /* LocationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
+		40390B3B23A5364400C37987 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		EEA85B50DA796FC17207834C /* Pods_iRis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A24E8CA1F1791C10EB0FC5 /* Pods_iRis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402DD3FB23A5A1E800B8CFAE /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				402DD3FC23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json */,
+			);
+			path = "JSON Files";
+			sourceTree = "<group>";
+		};
 		40390ADC23A4035C00C37987 = {
 			isa = PBXGroup;
 			children = (
 				40390AE723A4035D00C37987 /* iRis */,
 				40390AE623A4035D00C37987 /* Products */,
+				80A58134E01BE423064571AB /* Pods */,
+				B7F74CE8E6E23F1ACE86C945 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +123,130 @@
 		40390AE723A4035D00C37987 /* iRis */ = {
 			isa = PBXGroup;
 			children = (
-				40390AE823A4035D00C37987 /* AppDelegate.swift */,
-				40390AEA23A4035D00C37987 /* SceneDelegate.swift */,
-				40390AEC23A4035D00C37987 /* ViewController.swift */,
-				40390AEE23A4035D00C37987 /* Main.storyboard */,
+				402DD3FB23A5A1E800B8CFAE /* JSON Files */,
+				40390B2823A534D600C37987 /* ARNavigation */,
+				40390B0723A41D9D00C37987 /* Classes */,
+				40390B0423A41CB500C37987 /* Helpers */,
+				40390B0323A4163500C37987 /* Services */,
+				40390B0A23A41ECA00C37987 /* Model */,
+				40390B0223A4162B00C37987 /* Views */,
+				40390B0023A4160800C37987 /* Controllers */,
 				40390AF123A4035F00C37987 /* Assets.xcassets */,
-				40390AF323A4035F00C37987 /* LaunchScreen.storyboard */,
 				40390AF623A4035F00C37987 /* Info.plist */,
+				40390B0F23A42E4C00C37987 /* GoogleService-Info.plist */,
 			);
 			path = iRis;
+			sourceTree = "<group>";
+		};
+		40390B0023A4160800C37987 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40390B0123A4161B00C37987 /* Login Module */,
+				40390B1D23A4AA7F00C37987 /* Map Module */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		40390B0123A4161B00C37987 /* Login Module */ = {
+			isa = PBXGroup;
+			children = (
+				40390AFC23A415F200C37987 /* LoginViewController.swift */,
+				40390AFE23A4160200C37987 /* RegisterAccViewController.swift */,
+				40390B1723A47F0A00C37987 /* FormViewController.swift */,
+			);
+			path = "Login Module";
+			sourceTree = "<group>";
+		};
+		40390B0223A4162B00C37987 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40390AEE23A4035D00C37987 /* Main.storyboard */,
+				40390AF323A4035F00C37987 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40390B0323A4163500C37987 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40390B2423A4C3C100C37987 /* style.json */,
+				40390AE823A4035D00C37987 /* AppDelegate.swift */,
+				40390AEA23A4035D00C37987 /* SceneDelegate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		40390B0423A41CB500C37987 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40390B0523A41CE200C37987 /* Helpers+Extensions.swift */,
+				40390B1523A4724C00C37987 /* Helpers+Variables.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		40390B0723A41D9D00C37987 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40390B0823A41DB500C37987 /* iRisTextfield.swift */,
+				40390B1923A498B400C37987 /* CustomTabBar.swift */,
+				40390B1E23A4BB4D00C37987 /* GoogleDataProvider.swift */,
+				40390B2023A4BBA600C37987 /* GooglePlace.swift */,
+				40390B2223A4BC9400C37987 /* Placemarker.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		40390B0A23A41ECA00C37987 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40390B1123A4715900C37987 /* DataService.swift */,
+				40390B1323A4721900C37987 /* User.swift */,
+				40390B3B23A5364400C37987 /* LocationDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40390B1D23A4AA7F00C37987 /* Map Module */ = {
+			isa = PBXGroup;
+			children = (
+				40390B1B23A4AA7300C37987 /* MapViewController.swift */,
+				40390B2623A5190000C37987 /* MapDetailViewController.swift */,
+			);
+			path = "Map Module";
+			sourceTree = "<group>";
+		};
+		40390B2823A534D600C37987 /* ARNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				40390B2923A534D600C37987 /* Constant.swift */,
+				40390B2A23A534D600C37987 /* ARPathViewController.swift */,
+				40390B2B23A534D600C37987 /* BaseVc.swift */,
+				40390B2C23A534D600C37987 /* GoogleApiUrl.swift */,
+				40390B2D23A534D600C37987 /* Extension .swift */,
+				40390B2E23A534D600C37987 /* typeAlias.swift */,
+				40390B2F23A534D600C37987 /* Step.swift */,
+				40390B3023A534D600C37987 /* GetIntermediateCordinate.swift */,
+				40390B3123A534D600C37987 /* LocationDetail.swift */,
+			);
+			path = ARNavigation;
+			sourceTree = "<group>";
+		};
+		80A58134E01BE423064571AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				121E7D0B14A1E0AD164372BB /* Pods-iRis.debug.xcconfig */,
+				1D6A583D903C8028744BAA81 /* Pods-iRis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7F74CE8E6E23F1ACE86C945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEA85B50DA796FC17207834C /* Pods_iRis.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40390AF923A4035F00C37987 /* Build configuration list for PBXNativeTarget "iRis" */;
 			buildPhases = (
+				8983FB98B13E847B8AE07315 /* [CP] Check Pods Manifest.lock */,
 				40390AE123A4035D00C37987 /* Sources */,
 				40390AE223A4035D00C37987 /* Frameworks */,
 				40390AE323A4035D00C37987 /* Resources */,
+				5158436FCC11A85EFB3E468E /* [CP] Embed Pods Frameworks */,
+				C70E2696F171975B19271CEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40390AF523A4035F00C37987 /* LaunchScreen.storyboard in Resources */,
+				402DD3FD23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json in Resources */,
+				40390B1023A42E4C00C37987 /* GoogleService-Info.plist in Resources */,
+				40390B2523A4C3C100C37987 /* style.json in Resources */,
 				40390AF223A4035F00C37987 /* Assets.xcassets in Resources */,
 				40390AF023A4035D00C37987 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +321,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5158436FCC11A85EFB3E468E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iRis/Pods-iRis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iRis/Pods-iRis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iRis/Pods-iRis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8983FB98B13E847B8AE07315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iRis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70E2696F171975B19271CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iRis/Pods-iRis-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iRis/Pods-iRis-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iRis/Pods-iRis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40390AE123A4035D00C37987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40390AED23A4035D00C37987 /* ViewController.swift in Sources */,
+				40390B0923A41DB500C37987 /* iRisTextfield.swift in Sources */,
+				40390B3223A534D700C37987 /* Constant.swift in Sources */,
+				40390B1223A4715900C37987 /* DataService.swift in Sources */,
+				40390B1623A4724C00C37987 /* Helpers+Variables.swift in Sources */,
+				40390B3A23A534D700C37987 /* LocationDetail.swift in Sources */,
+				40390B3423A534D700C37987 /* BaseVc.swift in Sources */,
+				40390B3623A534D700C37987 /* Extension .swift in Sources */,
+				40390B2323A4BC9400C37987 /* Placemarker.swift in Sources */,
+				40390B3823A534D700C37987 /* Step.swift in Sources */,
+				40390B1F23A4BB4D00C37987 /* GoogleDataProvider.swift in Sources */,
+				40390B1A23A498B400C37987 /* CustomTabBar.swift in Sources */,
+				40390AFD23A415F200C37987 /* LoginViewController.swift in Sources */,
+				40390B2123A4BBA600C37987 /* GooglePlace.swift in Sources */,
+				40390B2723A5190000C37987 /* MapDetailViewController.swift in Sources */,
+				40390B3723A534D700C37987 /* typeAlias.swift in Sources */,
+				40390B3C23A5364400C37987 /* LocationDetails.swift in Sources */,
+				40390B3523A534D700C37987 /* GoogleApiUrl.swift in Sources */,
+				40390AFF23A4160200C37987 /* RegisterAccViewController.swift in Sources */,
+				40390B1423A4721900C37987 /* User.swift in Sources */,
+				40390B1C23A4AA7300C37987 /* MapViewController.swift in Sources */,
 				40390AE923A4035D00C37987 /* AppDelegate.swift in Sources */,
+				40390B0623A41CE200C37987 /* Helpers+Extensions.swift in Sources */,
+				40390B1823A47F0A00C37987 /* FormViewController.swift in Sources */,
+				40390B3923A534D700C37987 /* GetIntermediateCordinate.swift in Sources */,
+				40390B3323A534D700C37987 /* ARPathViewController.swift in Sources */,
 				40390AEB23A4035D00C37987 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +552,7 @@
 		};
 		40390AFA23A4035F00C37987 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121E7D0B14A1E0AD164372BB /* Pods-iRis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,15 +562,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ss.iRis;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ss.iRis-server";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		40390AFB23A4035F00C37987 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6A583D903C8028744BAA81 /* Pods-iRis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,10 +581,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ss.iRis;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ss.iRis-server";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
