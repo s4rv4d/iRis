@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-let apiKey = "AIzaSyDYehlAYQxuKfX9v1HtRngi4C_nNA5byVw"
+let apiKey = "AIzaSyAV0Ddji2z2iMNp21vgKyQNpLE07K4P544"
 
 struct ApiResponseConstant {
     static let result = "result"

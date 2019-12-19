@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>581077060279-g0ijb8atp5fa2ilsu07b6clods0tbp8q.apps.googleusercontent.com</string>
+	<string>1011855440899-ee3ovt43fre6tkp9k6smcm4lhgfcvn84.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.581077060279-g0ijb8atp5fa2ilsu07b6clods0tbp8q</string>
+	<string>com.googleusercontent.apps.1011855440899-ee3ovt43fre6tkp9k6smcm4lhgfcvn84</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBHiGCesHziFaIJzcmmcKJtRd1kwiWM2Uo</string>
+	<string>AIzaSyDSR8r19LgY0AVTi45EkbAM7VZcfsdG1-0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>581077060279</string>
+	<string>1011855440899</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.ss.iRis</string>
+	<string>com.ss.iRis-serverInd</string>
 	<key>PROJECT_ID</key>
-	<string>accio-42957</string>
+	<string>iris-abb48</string>
 	<key>STORAGE_BUCKET</key>
-	<string>accio-42957.appspot.com</string>
+	<string>iris-abb48.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:581077060279:ios:b4f40064505f9a97b89b32</string>
+	<string>1:1011855440899:ios:42ecf0b1cf2eb072092236</string>
 	<key>DATABASE_URL</key>
-	<string>https://accio-42957.firebaseio.com</string>
+	<string>https://iris-abb48.firebaseio.com</string>
 </dict>
 </plist>

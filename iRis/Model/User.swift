@@ -21,6 +21,9 @@ class User {
     var contact1:String!
     var contact2:String!
     var contact3:String!
+    var imageUrl:String = ""
+    var closeContacts:[String] = []
+    var closeState:Bool = false
     
     //MARK: - Dependency injection
     init(_ withEmail:String, _ withPassword:String,_ withName:String,_ withBG:String,_ withC1:String,_ withC2:String,_ withC3:String) {
@@ -104,10 +107,10 @@ class User {
                 //user sucessfully created
                 let userId = user?.user.uid
                 self.uuid = userId
-                let userDict:[String:String] = ["email":self.emailId!,"uuid":userId!,"name":self.name,"bloodGroup":self.bloodGroup,"c1":self.contact1,"c2":self.contact2,"c3":self.contact3]
+                let userDict:[String:Any] = ["email":self.emailId! as Any,"uuid":userId!,"name":self.name as Any,"bloodGroup":self.bloodGroup as Any,"c1":self.contact1 as Any,"c2":self.contact2 as Any,"c3":self.contact3 as Any,"imageUrl":self.imageUrl as Any,"closeContacts":self.closeContacts as Any,"closeState":self.closeState as Any]
                 UserDefaults.standard.set(userId, forKey: "uid")
                 //persist
-                let dbData:[String:String] = ["email":self.emailId!,"uuid":userId!,"pass":self.password,"name":self.name,"bloodGroup":self.bloodGroup,"c1":self.contact1,"c2":self.contact2,"c3":self.contact3]
+                let dbData:[String:Any] = ["email":self.emailId! as Any,"uuid":userId!,"pass":self.password as Any,"name":self.name as Any,"bloodGroup":self.bloodGroup as Any,"c1":self.contact1 as Any,"c2":self.contact2 as Any,"c3":self.contact3 as Any,"imageUrl":self.imageUrl as Any,"closeContacts":self.closeContacts as Any,"closeState":self.closeState as Any]
                 UserDefaults.standard.set(dbData, forKey: UserObjKey)
                 //save to db
                 DataService.dataService.createNewAccount(uid: userId!, user: userDict)

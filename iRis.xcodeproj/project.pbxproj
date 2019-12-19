@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		402DD3FD23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json in Resources */ = {isa = PBXBuildFile; fileRef = 402DD3FC23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json */; };
+		402EE00123A97363002199B8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EE00023A97363002199B8 /* OnBoardingViewController.swift */; };
 		40390AE923A4035D00C37987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AE823A4035D00C37987 /* AppDelegate.swift */; };
 		40390AEB23A4035D00C37987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AEA23A4035D00C37987 /* SceneDelegate.swift */; };
 		40390AF023A4035D00C37987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40390AEE23A4035D00C37987 /* Main.storyboard */; };
@@ -17,7 +18,6 @@
 		40390AFF23A4160200C37987 /* RegisterAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390AFE23A4160200C37987 /* RegisterAccViewController.swift */; };
 		40390B0623A41CE200C37987 /* Helpers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B0523A41CE200C37987 /* Helpers+Extensions.swift */; };
 		40390B0923A41DB500C37987 /* iRisTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B0823A41DB500C37987 /* iRisTextfield.swift */; };
-		40390B1023A42E4C00C37987 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40390B0F23A42E4C00C37987 /* GoogleService-Info.plist */; };
 		40390B1223A4715900C37987 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1123A4715900C37987 /* DataService.swift */; };
 		40390B1423A4721900C37987 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1323A4721900C37987 /* User.swift */; };
 		40390B1623A4724C00C37987 /* Helpers+Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B1523A4724C00C37987 /* Helpers+Variables.swift */; };
@@ -39,6 +39,7 @@
 		40390B3923A534D700C37987 /* GetIntermediateCordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B3023A534D600C37987 /* GetIntermediateCordinate.swift */; };
 		40390B3A23A534D700C37987 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B3123A534D600C37987 /* LocationDetail.swift */; };
 		40390B3C23A5364400C37987 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40390B3B23A5364400C37987 /* LocationDetails.swift */; };
+		40B092AB23A8936D00C04B65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40B092AA23A8936D00C04B65 /* GoogleService-Info.plist */; };
 		45A24E8CA1F1791C10EB0FC5 /* Pods_iRis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA85B50DA796FC17207834C /* Pods_iRis.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		121E7D0B14A1E0AD164372BB /* Pods-iRis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRis.debug.xcconfig"; path = "Target Support Files/Pods-iRis/Pods-iRis.debug.xcconfig"; sourceTree = "<group>"; };
 		1D6A583D903C8028744BAA81 /* Pods-iRis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRis.release.xcconfig"; path = "Target Support Files/Pods-iRis/Pods-iRis.release.xcconfig"; sourceTree = "<group>"; };
 		402DD3FC23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1529-pulsingbeacon.json"; sourceTree = "<group>"; };
+		402EE00023A97363002199B8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		40390AE523A4035D00C37987 /* iRis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40390AE823A4035D00C37987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40390AEA23A4035D00C37987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 		40390AFE23A4160200C37987 /* RegisterAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAccViewController.swift; sourceTree = "<group>"; };
 		40390B0523A41CE200C37987 /* Helpers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers+Extensions.swift"; sourceTree = "<group>"; };
 		40390B0823A41DB500C37987 /* iRisTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRisTextfield.swift; sourceTree = "<group>"; };
-		40390B0F23A42E4C00C37987 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		40390B1123A4715900C37987 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		40390B1323A4721900C37987 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		40390B1523A4724C00C37987 /* Helpers+Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helpers+Variables.swift"; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		40390B3023A534D600C37987 /* GetIntermediateCordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIntermediateCordinate.swift; sourceTree = "<group>"; };
 		40390B3123A534D600C37987 /* LocationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		40390B3B23A5364400C37987 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
+		40B092AA23A8936D00C04B65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EEA85B50DA796FC17207834C /* Pods_iRis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iRis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,7 +135,7 @@
 				40390B0023A4160800C37987 /* Controllers */,
 				40390AF123A4035F00C37987 /* Assets.xcassets */,
 				40390AF623A4035F00C37987 /* Info.plist */,
-				40390B0F23A42E4C00C37987 /* GoogleService-Info.plist */,
+				40B092AA23A8936D00C04B65 /* GoogleService-Info.plist */,
 			);
 			path = iRis;
 			sourceTree = "<group>";
@@ -143,6 +145,7 @@
 			children = (
 				40390B0123A4161B00C37987 /* Login Module */,
 				40390B1D23A4AA7F00C37987 /* Map Module */,
+				402EE00023A97363002199B8 /* OnBoardingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -312,10 +315,10 @@
 			files = (
 				40390AF523A4035F00C37987 /* LaunchScreen.storyboard in Resources */,
 				402DD3FD23A5A1FE00B8CFAE /* 1529-pulsingbeacon.json in Resources */,
-				40390B1023A42E4C00C37987 /* GoogleService-Info.plist in Resources */,
 				40390B2523A4C3C100C37987 /* style.json in Resources */,
 				40390AF223A4035F00C37987 /* Assets.xcassets in Resources */,
 				40390AF023A4035D00C37987 /* Main.storyboard in Resources */,
+				40B092AB23A8936D00C04B65 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +412,7 @@
 				40390B0623A41CE200C37987 /* Helpers+Extensions.swift in Sources */,
 				40390B1823A47F0A00C37987 /* FormViewController.swift in Sources */,
 				40390B3923A534D700C37987 /* GetIntermediateCordinate.swift in Sources */,
+				402EE00123A97363002199B8 /* OnBoardingViewController.swift in Sources */,
 				40390B3323A534D700C37987 /* ARPathViewController.swift in Sources */,
 				40390AEB23A4035D00C37987 /* SceneDelegate.swift in Sources */,
 			);
@@ -562,7 +566,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ss.iRis-server";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ss.iRis-serverInd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -581,7 +585,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ss.iRis-server";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ss.iRis-serverInd";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

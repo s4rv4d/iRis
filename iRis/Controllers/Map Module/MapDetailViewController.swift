@@ -61,6 +61,7 @@ class MapDetailViewController: UIViewController {
     }
     
     @IBAction func callTapped(_ sender: UIButton) {
+        
     }
     
     
@@ -81,8 +82,8 @@ class MapDetailViewController: UIViewController {
             let location1 = CLLocation(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
             let location2 = CLLocation(latitude: lat!, longitude: long!)
             let distance : CLLocationDistance = location2.distance(from: location1)
-            distanceLabel.textColor = .black
-            distanceLabel.text = "Distance: \(Int(distance/1000)) km"
+            distanceLabel.textColor = .white
+            distanceLabel.text = String(format:"Distance: %.2f KM",Double(distance/1000))
             
             stationName.text = name!
             latitudeValue.text = "\(lat!)"

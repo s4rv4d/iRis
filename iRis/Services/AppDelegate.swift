@@ -11,7 +11,7 @@ import Firebase
 import GoogleMaps
 
 //MARK: - Global variables
-let googleApiKey = "AIzaSyDYehlAYQxuKfX9v1HtRngi4C_nNA5byVw"
+let googleApiKey = "AIzaSyAV0Ddji2z2iMNp21vgKyQNpLE07K4P544"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

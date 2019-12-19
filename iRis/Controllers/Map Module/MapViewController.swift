@@ -39,6 +39,7 @@ class MapViewController: UIViewController {
         initializeTheLocationManager()
         mapViewDelegateSetup()
         self.mapView.isMyLocationEnabled = true
+        hud.textLabel.text = "Loading..."
         hud.show(in: self.view)
         initialSetup()
         
@@ -46,7 +47,12 @@ class MapViewController: UIViewController {
     
     //MARK: - Functions
     func initialSetup() {
-        greetLabel.text = "Hi!, \(User.currentUser()!.name!)"
+        if let userName = User.currentUser()!.name {
+            greetLabel.text = "Hi!, \(userName)"
+        } else {
+            greetLabel.text = "Hi!, User"
+        }
+        
     }
 
 }
